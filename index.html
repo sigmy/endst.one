@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>endst.one</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+</head>
+<body>
+    <div class="flex h-screen">
+        <div class="m-auto text-white">
+            <h1 class="text-5xl text-center">endst.one</h1>
+            <div class="flex justify-center mt-4">
+                <img class="h-40" src="assets/images/end_stone.png">
+            </div>
+            <div class="mt-8">
+                <input id="ip" type="text" class="inline-block bg-black py-2 px-4 border border-gray-800" value="play.endst.one" readonly>
+                <button class="btn inline-block bg-black border border-gray-800 p-2" data-clipboard-target="#ip">
+                    <img class="h-6" src="https://icongr.am/clarity/copy-to-clipboard.svg?color=ffffff">
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+    <script>
+        var clipboard = new ClipboardJS('.btn');
+    </script>
+</body>
+</html>
