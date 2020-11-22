@@ -22,6 +22,7 @@ PvP: あり
 ・/mcability - スキルの発動設定を切替
 ・/party create <名前> [パスワード] - パーティを作成
 ・/ptp <プレイヤー名> - パーティメンバーにテレポート
+・/money - 所持金を確認
 
 主なプラグイン:
 ・CoreProtect - ロールバック機能
@@ -29,6 +30,8 @@ PvP: あり
 ・FoundDiamonds - ダイヤモンド、ネザーライト採掘時のアナウンス
 ・LWC - チェスト保護機能
 ・mcMMO - レベルやスキルの概念を追加
+・ChestShop - チェストでショップを作成する機能
+・Craftconomy3 - 経済の概念を追加
 
 お問い合わせ:
 ・Twitter: @Sigmi (4575535932)
